@@ -11,16 +11,80 @@ html {
 
 
 body {
-    background-color: #000000;
+    background-color: #031324;
     margin: 0;
     padding: 0;
 }
 
 .nav {
-    background-color: rgb(25, 132, 136);
+    background-color: rgba(81, 30, 113, 0.826);
+    display: flex;
+    flex-direction: column;
+    height: 11rem;
+    width: auto;
+    padding: .5rem;
+    color: white;}
 
+.nav__holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.nav__menu{
+    /* border: 2px solid rgb(61, 255, 61); */
+}
+
+.nav__darkMode{
+    /* border: 2px solid red; */
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .65rem;
+}
+
+.nav__home{
+    text-decoration: none;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    color: white;
+}
+
+.nav__projects{
+    text-decoration: none;
+    padding-top: .25rem;
+    padding-bottom: .5rem;
+    color: white;
+}
+
+.nav__portfolio{
+    text-decoration: none;
+    padding-top: .25rem;
+    padding-bottom: .5rem;
+    color: white;
+}
+
+.nav__searchBar{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.nav__input{
+    width: 15rem;
+    outline: .1rem solid #e9ff70;
+}
+
+.nav__input:hover{
+    outline: .1rem solid #01ff99;
 }
 
 @media only screen and (min-width: 768px) {
-    .nav{background-color: red;}
+    body {}
+
+    .nav {}
 }
