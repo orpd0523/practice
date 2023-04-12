@@ -1,3 +1,26 @@
-body{
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
     background-color: rgb(25, 132, 136);
+
+}
+
+@media only screen and (min-width: 768px) {
+    .nav{background-color: red;}
 }
