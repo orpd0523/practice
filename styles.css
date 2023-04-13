@@ -11,13 +11,13 @@ html {
 
 
 body {
-    background-color: #031324;
+    background-color: #291720;
     margin: 0;
     padding: 0;
 }
 
 .nav {
-    background-color: rgba(81, 30, 113, 0.826);
+    background-color: #820263;
     display: flex;
     flex-direction: column;
     height: 11rem;
@@ -32,9 +32,32 @@ body {
     padding: .5rem;
 }
 
-.nav__menu{
-    /* border: 2px solid rgb(61, 255, 61); */
+.nav__burger{
+    position: fixed;
+    cursor: pointer;
 }
+
+.closeIcon{
+    display: none;
+}
+
+.menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+
+.showMenu{
+    transform: translateY(0);
+}
+
 
 .nav__darkMode{
     /* border: 2px solid red; */
@@ -44,7 +67,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: .65rem;
+    list-style: none;
+    background-color: black;
+    padding-right: 2rem;
 }
 
 .nav__home{
@@ -62,7 +87,7 @@ body {
 }
 
 .nav__portfolio{
-    text-decoration: none;
+    text-decoration: none; 
     padding-top: .25rem;
     padding-bottom: .5rem;
     color: white;
@@ -76,15 +101,12 @@ body {
 
 .nav__input{
     width: 15rem;
-    outline: .1rem solid #e9ff70;
+    outline: .1rem solid #D90368;
 }
 
 .nav__input:hover{
     outline: .1rem solid #01ff99;
 }
 
-@media only screen and (min-width: 768px) {
-    body {}
-
-    .nav {}
-}
+/* @media only screen and (min-width: 768px) {
+} */
