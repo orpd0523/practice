@@ -11,7 +11,7 @@ html {
 
 
 body {
-    background-color: #820263;
+    background-color: #310827;
     margin: 0;
     padding: 0;
 }
@@ -72,7 +72,7 @@ body {
 
 .nav__home {
     text-decoration: none;
-    margin-top: 1rem;
+    margin-top: .5rem;
     padding-bottom: .5rem;
     color: white;
 }
@@ -89,6 +89,10 @@ body {
     padding-top: .25rem;
     padding-bottom: .5rem;
     color: white;
+}
+
+a:hover{
+    color: #000;
 }
 
 .nav__searchBar {
@@ -110,5 +114,6 @@ body {
     display: none;
 }
 
-/* @media only screen and (min-width: 768px) {
-} */
+@media only screen and (min-width: 768px) {
+    
+}
