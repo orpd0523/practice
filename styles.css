@@ -66,6 +66,8 @@ body {
     list-style: none;
     padding-right: 2rem;
     visibility: hidden;
+    font-weight: 600;
+    
 }
 
 .nav__home {
@@ -97,11 +99,11 @@ body {
 
 .nav__input {
     width: 15rem;
-    outline: .1rem solid #D90368;
+    outline: .25rem solid #D90368;
 }
 
 .nav__input:hover {
-    outline: .1rem solid #01ff99;
+    outline: .15rem solid #01ff99;
 }
 
 .hidden {
